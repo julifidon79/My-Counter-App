@@ -1,0 +1,77 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit         ;
+}
+body{
+    max-width: 1800px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: orbitron;
+    color: #fff;
+
+}
+.counter{
+    margin: 0;
+    padding-top: 10rem;
+    text-align: center;
+    background-image: url(img/counter-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150vh;
+}
+.counter button{
+    border: 4px solid red;
+    display: block;
+    margin: 2rem auto;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+#save-btn{
+    padding: 15px 70px;
+}
+h1{
+    font-size: 40px;
+    padding: 15px auto;
+    border: 4px solid green;
+    border-radius: 15px;
+    width: 300px;
+    margin: 2rem auto;
+
+}
+h2{
+    font-size: 50px;
+    border: 4px solid goldenrod;
+    border-radius: 15px;
+    width: 200px;
+    margin: auto;
+}
+p{
+    font-size:2 0px;
+    font-weight: bold;
+    margin-top: 10rem;
+    padding: 10px;
+    border: 4px solid skyblue;
+    background: powderblue;
+    color: blue;
+}
+ 
+@media (min-width: 850px) {
+    .counter button{
+        display: inline-block;
+        border: 8px solid red;
+        margin: 2rem auto;
+        font-size: xx-large;
+    }
+    #save-btn {
+        padding: 15px 80px;
+    }
+}
